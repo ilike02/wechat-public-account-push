@@ -64,11 +64,11 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oCVOp6JjCWKb7pfoyqM8fB7Z2rQs",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "Q67GXvJV0dAKVQhUmocMvamNXcjTkS0qdV6Loghv6uM",
+      useTemplateId: "A5UjC4f1sgrfeqZlJcF3kOKmESDQSvjD3ktKmPiLjyY",
       // 所在省份
-      province: "重庆市",
+      province: "重庆",
       // 所在城市
-      city: "长寿区",
+      city: "长寿",
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '10-08',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
@@ -139,7 +139,7 @@ export const config = {
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "",
+  CALLBACK_TEMPLATE_ID: "lbIO7erqdb0ImI3_U0kT-OlqlSA75g0raSdmqeMWMbM",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -160,9 +160,9 @@ export const config = {
   /** 天气相关 */
 
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: "广东",
+  PROVINCE: "重庆",
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: "惠州",
+  CITY: "长寿",
 
   /** 重要节日相关 */
 
